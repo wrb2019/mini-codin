@@ -1,4 +1,14 @@
- private String digits;
+package com.wrb;
+
+import java.util.*;
+
+/**
+ * @Author:wrb
+ * @Date :2020/2/11/17:37
+ * @Describtion:
+ **/
+public class Mini_codin {
+        private String digits;
         private List<String> result;
         private StringBuilder stringBuilder;
         private static Map<Integer,String> map = new HashMap<>();
@@ -42,3 +52,12 @@
                 stringBuilder.deleteCharAt(stringBuilder.length() - 1);
             }
         }
+
+    //test
+    public static void main(String[] args) {
+        Mini_codin obj = new Mini_codin();
+        String s = "59";
+        System.out.println(Arrays.toString(obj.letterCombinations(s).toArray()));;
+    }
+
+}
