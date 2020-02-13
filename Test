@@ -1,0 +1,15 @@
+package com.wrb;
+
+/**
+ * @Author:wrb
+ * @Date :2020/2/12/21:43
+ * @Describtion:
+ **/
+public class Test {
+
+    public static void main(String[] args) {
+        LetterCombination letterCombination = new LetterCombination();
+        String digits = "123542";
+        System.out.println(letterCombination.letterCombinations(digits));
+    }
+}
